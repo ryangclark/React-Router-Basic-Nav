@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navigation = () => {
   return (
-    <div>
-      <div className="App">
+    <React.Fragment>
+      <div className="Navigation">
         <h1>React Router Mini</h1>
         <div>
           <a href="">Home</a>
@@ -15,7 +15,7 @@ const Navigation = () => {
           <a href="">Contact</a>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
